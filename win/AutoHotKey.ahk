@@ -23,8 +23,8 @@ else
 return
 
 ; MouseWheel
-WheelUp::WheelDown
-WheelDown:: WheelUp
+;WheelUp::WheelDown
+;WheelDown:: WheelUp
 #MaxHotkeysPerInterval 200
 
 ; CapslockToCtrl
@@ -37,8 +37,8 @@ CapsLock::Ctrl
 ;LWin::LAlt
 
 ; BackSpace
-;BackSpace::\
-;\::BackSpace\
+BackSpace::\
+\::BackSpace\
 
 ; Note: From now on whenever you run AutoHotkey directly, this script
 ; will be loaded.  So feel free to customize it to suit your needs.
